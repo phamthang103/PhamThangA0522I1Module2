@@ -1,6 +1,6 @@
-package tuan6.interfac_resizeable;
+package PhamThangA0522I1Module2.tuan6.interfac_resizeable;
 
-public class Circle {
+public class Circle  extends Shape implements Comparator<Circle>  {
     private double radius = 1.0;
     public Circle(){
     }
